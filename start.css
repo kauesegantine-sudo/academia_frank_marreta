@@ -1,0 +1,172 @@
+body{
+    margin: 0%;
+    padding: px;
+ }
+ 
+ .cabeçalho {
+    padding: 10px 16px;
+   background-color: rgb(7, 7, 44);
+   color: aliceblue;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   }
+  
+  .texto{
+
+ text-align: center;
+
+  }
+  
+   .nova {
+    margin-left: 15px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu {
+     margin-left: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.cartao {
+    
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.cartao a {
+    display: block;
+    color: rgb(1, 1, 10);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cartao p {
+    color: #555;
+}
+
+.conteudo {
+    padding: 25px 20px;
+}
+
+.campo {
+    margin-bottom: 18px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.campo input,
+.campo select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #c9ced3;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.botao {
+    width: 100%;
+    padding: 13px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #246b50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #194f3b;
+}
+
+.voltar {
+    display: block;
+    margin-top: 18px;
+    text-align: center;
+    color: #246b50;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+.matricula{
+   
+    display: block;
+    margin: 15px 20px 25px;
+    padding: 15px 20px;
+    background-color: #dff3e7;
+    color: #26734d;
+    border: 1px solid #b7dfc7;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+
+
+.formulario {
+    max-width: 800px;
+    margin: 25px auto 40px;
+    padding: 25px 30px;
+    background-color: #ffffff;
+    border: 1px solid #dce5df;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.formulario h3 {
+    color: #26734d;
+    font-size: 21px;
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dff3e7;
+}
+
+.formulario p {
+    margin: 0;
+    padding: 13px 8px;
+    border-bottom: 1px solid #e5ebe7;
+}
+
+.formulario p strong {
+    display: inline-block;
+    min-width: 155px;
+    color: #26384d;
+}
+
+.formulario .voltar {
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    padding: 10px 16px;
+    background-color: #26734d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.formulario .voltar:hover {
+    background-color: #1b5438;
+}

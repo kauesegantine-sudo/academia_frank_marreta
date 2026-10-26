@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novamatricula</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="cabeçalho">
+     <h1>Academia dos fortinhos</h1>
+     <br><br>
+    </div>
+    
+    <div class="texto">
+     <h2>Nova Matrícula</h2>
+     <h3>Dados do aluno</h3>
+    </div>
+     
+    <div class="conteudo">
+        <form action="verificação.php" method="post" class="formulario">
+
+            
+
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" name="idade" min="18" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="data">Data da matrícula</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+
+            <h3>Plano e pagamento</h3>
+
+            <div class="campo">
+                <label for="plano">Plano escolhido</label>
+                <select id="plano" name="plano" required>
+                    <option value="">Selecione um plano</option>
+                    <option value="basico">Básico - R$ 89,90</option>
+                    <option value="plus">Plus - R$ 129,90</option>
+                    <option value="premium">Premium - R$ 179,90</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="pagamento">Forma de pagamento</label>
+                <select id="pagamento" name="pagamento" required>
+                    <option value="">Selecione o pagamento</option>
+                    <option value="pix">PIX</option>
+                    <option value="cartao">Cartão</option>
+                </select>
+            </div>
+
+            <button type="submit" class="botao">
+                Cadastrar matrícula
+            </button>
+
+            <a href="index.html" class="voltar">Voltar ao painel</a>
+
+        </form>
+    </div>
+
+</body>
+</html>
